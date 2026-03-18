@@ -1,0 +1,53 @@
+site_name: PLUS ERP
+site_description: Manual de programador del ERP
+site_author: Martinez Ortiz Eduardo Antonio
+
+theme:
+  name: material
+
+nav:
+  - Inicio: index.md
+  - Arquitectura: architecture.md
+  - Apps: 
+    - Arquitectura: architecture.md
+    - Crear una App: backend.md
+    - Crear un Plugin: backend.md
+  - PLUS Bussiness > Backend: backend.md
+  - PLUS UI > Frontend:
+      - Introducción: frontend.md
+      - Inputs:
+          - PlusTitle: inputs/plus-title.md
+          - InputField: inputs/input-field.md
+          - PlusQuantity: inputs/plus-quantity.md
+          - EditQuantity: inputs/edit-quantity.md
+          - PlusSelect: inputs/PlusSelect.md
+          - PlusMultiSelect: inputs/PlusMultiSelect.md
+          - PlusCountry: inputs/PlusCountry.md
+          - PlusSwitch: inputs/PlusSwitch.md
+      - Dynamic:
+          - search-bar: dynamic/search-bar.md
+      - Componentes:
+          - InfoLabel: components/info-label.md
+          - MessagePop: components/message-pop.md
+          - PlusPanel: components/plus-panel.md
+          - PlusNavbar: components/plus-navbar.md
+          - ConfirmButton: components/confirm-button.md
+          - ConfirmDialog: components/confirm-dialog.md
+          - AppMenu: components/AppMenu.md
+          - KeyBind: components/KeyBind.md
+          - PlusHelp: components/PlusHelp.md
+          - CreateHelp: components/CreateHelp.md
+          - PlusSelectDate: components/PlusSelectDate.md
+          - PlusTabs: components/PlusTabs.md
+          - PlusActions: components/PlusActions.md
+      - Functions:
+          - get_text_and_keys: functions/get_text_and_keys.md
+          - show_message_question: functions/show_message_question.md
+          - set_value_plus_select: functions/set_value_plus_select.md
+          - set_value_plus_select_multiple: functions/set_value_plus_select_multiple.md
+          - get_value_plus_select: functions/get_value_plus_select.md
+          - plus_delete_with_help_button: functions/plus_delete_with_help_button.md
+          - get_status_plus_switch: functions/get_status_plus_switch.md
+          - set_status_plus_switch: functions/set_status_plus_switch.md
+
+  - API: api.md
