@@ -50,6 +50,7 @@ nav:
           - plus_delete_with_help_button: functions/plus_delete_with_help_button.md
           - get_status_plus_switch: functions/get_status_plus_switch.md
           - set_status_plus_switch: functions/set_status_plus_switch.md
+          - update_container_with_seeker: functions/update_container_with_seeker.md
       - Currency:
             - get_currency_system: currency/get_currency_system.md
             - format_currency: currency/format_currency.md
