@@ -41,6 +41,7 @@ nav:
           - PlusTabs: components/PlusTabs.md
           - PlusActions: components/PlusActions.md
       - Functions:
+          - nextWeb: functions/nextWeb.md
           - get_text_and_keys: functions/get_text_and_keys.md
           - show_message_question: functions/show_message_question.md
           - set_value_plus_select: functions/set_value_plus_select.md
@@ -49,8 +50,10 @@ nav:
           - plus_delete_with_help_button: functions/plus_delete_with_help_button.md
           - get_status_plus_switch: functions/get_status_plus_switch.md
           - set_status_plus_switch: functions/set_status_plus_switch.md
-      - Moneda:
+      - Currency:
             - get_currency_system: currency/get_currency_system.md
             - format_currency: currency/format_currency.md
-
+      - Time:
+            - format_date_to_text: time/format_date_to_text.md
+            - format_date: time/format_date.md
   - API: api.md
