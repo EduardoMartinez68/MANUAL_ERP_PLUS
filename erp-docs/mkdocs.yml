@@ -9,7 +9,7 @@ nav:
   - Inicio: index.md
   - Arquitectura: architecture.md
   - Apps: 
-    - Arquitectura: architecture.md
+    - Arquitectura: architectureApp.md
     - Crear una App: backend.md
     - Crear un Plugin: backend.md
   - PLUS Bussiness > Backend: backend.md
@@ -49,5 +49,8 @@ nav:
           - plus_delete_with_help_button: functions/plus_delete_with_help_button.md
           - get_status_plus_switch: functions/get_status_plus_switch.md
           - set_status_plus_switch: functions/set_status_plus_switch.md
+      - Moneda:
+            - get_currency_system: currency/get_currency_system.md
+            - format_currency: currency/format_currency.md
 
   - API: api.md
