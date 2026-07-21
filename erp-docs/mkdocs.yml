@@ -41,6 +41,7 @@ nav:
           - PlusTabs: components/PlusTabs.md
           - PlusActions: components/PlusActions.md
       - Functions:
+          - PLUS Global: functions/functions.md
           - nextWeb: functions/nextWeb.md
           - get_text_and_keys: functions/get_text_and_keys.md
           - show_message_question: functions/show_message_question.md
