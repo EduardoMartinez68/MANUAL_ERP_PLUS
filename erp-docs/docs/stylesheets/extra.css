@@ -1,0 +1,111 @@
+/* ==========================================================================
+   Custom User Manual Styles (MkDocs Material)
+   Modern, elegant, and professional styling tailored for #004AAD
+   ========================================================================== */
+
+/* Root Custom Properties & Theme Colors (Modo Claro y Base) */
+:root {
+  --md-primary-fg-color: #004AAD;         /* Tu azul corporativo fijo */
+  --md-primary-fg-color--light: #1A60C2;  /* Tono ligeramente más claro para hovers */
+  --md-primary-fg-color--dark: #003682;   /* Tono más oscuro para contrastes */
+  --md-accent-fg-color: #00C2CB;
+  
+  /* Font Families & Polish */
+  --md-code-font-family: "JetBrains Mono", Consolas, Menlo, monospace;
+}
+
+/* Modo Oscuro (Mantiene el mismo azul corporativo principal) */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #004AAD;         /* Forzamos el mismo azul en modo oscuro */
+  --md-primary-fg-color--light: #3375D1;
+  --md-primary-fg-color--dark: #003682;
+  --md-accent-fg-color: #00E5EF;
+}
+
+/* Typography & Smooth Rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Header & Navigation Polish */
+.md-header {
+  box-shadow: 0 2px 10px rgba(0, 74, 173, 0.1);
+  transition: background-color 0.25s ease;
+}
+
+.md-tabs {
+  background-color: #003682 !important;
+}
+
+/* Sidebar and Navigation links */
+.md-nav__link--active {
+  font-weight: 700;
+}
+
+/* Modern Card Layouts & Admonitions */
+.admonition, .md-typeset .admonition {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  border-left-width: 4px;
+}
+
+/* Custom styling for tables */
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border: none;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color);
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+.md-typeset table:not([class]) td {
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: none;
+}
+
+.md-typeset table:not([class]) tr:nth-child(even) {
+  background-color: rgba(0, 74, 173, 0.02);
+}
+
+/* Buttons & Interactive Elements */
+.md-button {
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.md-button--primary {
+  background-color: var(--md-primary-fg-color) !important;
+  border-color: var(--md-primary-fg-color) !important;
+}
+
+.md-button--primary:hover {
+  background-color: var(--md-primary-fg-color--dark) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 74, 173, 0.25);
+}
+
+/* Code blocks polish */
+.md-typeset pre > code {
+  border-radius: 6px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Custom Footer */
+.md-footer {
+  background-color: #0a1f3d;
+}
+
+/* Highlight / Selection */
+::selection {
+  background-color: var(--md-primary-fg-color);
+  color: #ffffff;
+}

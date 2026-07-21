@@ -1,20 +1,49 @@
 site_name: PLUS ERP
-site_description: Manual de programador del ERP
+site_description: ERP Programmer's Manual
 site_author: Martinez Ortiz Eduardo Antonio
+site_url: https://github.com/EduardoMartinez68/MANUAL_ERP_PLUS
 
 theme:
   name: material
+  language: en
+  logo: assets/logo_white.png     
+  favicon: assets/favicon.ico  
 
+  palette:
+    # mode white
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # mode black
+    - scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/EduardoMartinez68
 nav:
-  - Inicio: index.md
-  - Arquitectura: architecture.md
+  - Home: index.md
+  - Architecture: architecture.md
   - Apps: 
-    - Arquitectura: architectureApp.md
-    - Crear una App: backend.md
-    - Crear un Plugin: backend.md
+    - Create an App: backend.md
+    - Create a Plugin: backend.md
   - PLUS Bussiness > Backend: backend.md
   - PLUS UI > Frontend:
-      - Introducción: frontend.md
+      - Introduction: frontend.md
+      - Modular Logic:
+          - variables: module/variables.md
+          - functions: module/functions.md
       - Inputs:
           - PlusTitle: inputs/plus-title.md
           - InputField: inputs/input-field.md
@@ -41,7 +70,6 @@ nav:
           - PlusTabs: components/PlusTabs.md
           - PlusActions: components/PlusActions.md
       - Functions:
-          - PLUS Global: functions/functions.md
           - nextWeb: functions/nextWeb.md
           - get_text_and_keys: functions/get_text_and_keys.md
           - show_message_question: functions/show_message_question.md
